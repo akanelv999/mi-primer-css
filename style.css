@@ -1,0 +1,158 @@
+
+
+/* ESTILOS GENERALES */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* ACTIVIDAD 1 */
+.actividad1 h1 {
+    color: rgb(193, 236, 183);
+}
+
+.actividad1 p {
+    color: pink;
+}
+
+/* ACTIVIDAD 2 */
+.actividad2 h1 {
+    color: rgb(144, 215, 236);
+}
+
+.actividad2 h2 {
+    color: rgb(0, 0, 0);
+}
+
+.actividad2 p {
+    color: rgb(138, 87, 87);
+}
+
+/* ACTIVIDAD 3 */
+.actividad3 h1 {
+    color: pink;
+}
+
+.actividad3 h2 {
+    color: rgb(255, 215, 140);
+}
+
+.actividad3 p {
+    color: #cfa6cc;
+}
+
+.actividad3 button {
+    color: black;
+    background-color: pink;
+}
+
+/* ACTIVIDAD 4 */
+.actividad4 {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.actividad4 h1 {
+    color: pink;
+    font-size: 36px;
+}
+
+.actividad4 h2 {
+    color: skyblue;
+}
+
+.actividad4 p {
+    color: black;
+    font-size: 18px;
+}
+
+/* ACTIVIDAD 5 */
+.destacado {
+    color: pink;
+    background-color: lightyellow;
+    border: 2px solid pink;
+}
+
+/* ACTIVIDAD 6 */
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(219, 187, 238);
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ACTIVIDAD 7 */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+}
+.boton {
+    background-color: rgb(236, 181, 236);
+    color: white;
+    border-radius: 10px;
+    padding: 12px 20px;
+    border: none;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: rgb(245, 226, 191);
+    transform: scale(1.05);
+}
+:root {
+    --principal: #222;
+    --secundario: #555;
+    --fondo: #eeeeee;
+}
+body {
+    background-color: var(--fondo);
+}
+
+h1 {
+    color: var(--principal);
+}
+
+p {
+    color: var(--secundario);
+}
+
+button {
+    background-color: var(--principal);
+    color: white;
+}
